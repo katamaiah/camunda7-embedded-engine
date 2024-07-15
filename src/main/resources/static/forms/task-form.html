@@ -1,0 +1,36 @@
+<strong>Please approve the invoice based on validation report:</strong>
+
+<form class="form-horizontal">
+  <div class="form-group">
+    <label class="control-label">Invoice Number</label>
+    <div class="controls">
+      <input type="text" 
+             cam-variable-name="invoiceNumber"
+             readonly="true" 
+             class="form-control" />      
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label">Approve?</label>
+    <div class="controls">
+      <input type="checkbox"
+             cam-variable-name="l1approved"
+             cam-variable-type="Boolean"
+             class="form-control" />
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="control-label">Remarks</label>
+    <div class="controls">
+      <input type="text"
+             cam-variable-name="l1remarks"
+             cam-variable-type="String"
+             class="form-control" />
+    </div>
+  </div>
+
+  <script cam-script type="text/form-script">
+  // custom JavaScript goes here
+  </script>
+</form>

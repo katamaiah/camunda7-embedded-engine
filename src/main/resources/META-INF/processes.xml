@@ -1,0 +1,17 @@
+<process-application
+        xmlns="http://www.camunda.org/schema/1.0/ProcessApplication"
+>
+
+    <process-archive>
+          <process-engine>default</process-engine>
+           <properties>
+               <property name="isDeleteUponUndeploy">false</property>
+               <property name="isScanForProcessDefinitions">true</property>
+               <property name="additionalResourceSuffixes">html</property>
+               <property name="metricsEnabled">true</property>
+               <property name="isDeployChangedOnly">true</property>
+               <property name="history">activity</property>
+           </properties>
+    </process-archive>
+
+</process-application>
